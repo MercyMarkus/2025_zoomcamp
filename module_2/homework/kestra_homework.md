@@ -50,7 +50,7 @@ Complete the Quiz shown below. It’s a set of 6 multiple-choice questions to te
 
 - [ ] 1,428,092
 - [ ] 706,911
-- [ ] 1,925,152
+- [x] 1,925,152
 - [ ] 2,561,031
 
 6. How would you configure the timezone to New York in a Schedule trigger?
