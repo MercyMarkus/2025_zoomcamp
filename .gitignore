@@ -55,3 +55,4 @@ terraform.rc
 module_1/PostgreSQL_Data_Injestion.ipynb
 module_1/terraform_demo/.terraform.lock.hcl
 module_1/pipeline.py
+.vscode/settings.json
