@@ -22,19 +22,31 @@ Complete the Quiz shown below. It’s a set of 6 multiple-choice questions to te
 
 3. How many rows are there for the `Yellow` Taxi data for all CSV files in the year 2020?
 
+<p align="center">
+  <img width="100%" src="../../images/module_2_question_3_solution.png" alt="Module 2 Question 3 Solution">
+</p>
+
 - [ ] 13,537.299
-- [ ] 24,648,499
+- [x] 24,648,499
 - [ ] 18,324,219
 - [ ] 29,430,127
 
 4. How many rows are there for the `Green` Taxi data for all CSV files in the year 2020?
 
+<p align="center">
+  <img width="100%" src="../../images/module_2_question_4_solution.png" alt="Module 2 Question 4 Solution">
+</p>
+
 - [ ] 5,327,301
 - [ ] 936,199
-- [ ] 1,734,051
+- [x] 1,734,051
 - [ ] 1,342,034
 
 5. How many rows are there for the `Yellow` Taxi data for the March 2021 CSV file?
+
+<p align="center">
+  <img width="100%" src="../../images/module_2_question_5_solution.png" alt="Module 2 Question 5 Solution">
+</p>
 
 - [ ] 1,428,092
 - [ ] 706,911
@@ -43,7 +55,14 @@ Complete the Quiz shown below. It’s a set of 6 multiple-choice questions to te
 
 6. How would you configure the timezone to New York in a Schedule trigger?
 
+<p align="center">
+  <img width="100%" src="../../images/module_2_question_6_a_solution.png" alt="Module 2 Question 6 Solution">
+  <img width="100%" src="../../images/module_2_question_6_b_solution.png" alt="Module 2 Question 6 Solution">
+
+</p>
+
+[Kestra Documentation](https://kestra.io/plugins/core/triggers/io.kestra.plugin.core.trigger.schedule)
 - [ ] Add a `timezone` property set to `EST` in the `Schedule` trigger configuration  
-- [ ] Add a `timezone` property set to `America/New_York` in the `Schedule` trigger configuration
+- [x] Add a `timezone` property set to `America/New_York` in the `Schedule` trigger configuration
 - [ ] Add a `timezone` property set to `UTC-5` in the `Schedule` trigger configuration
 - [ ] Add a `location` property set to `New_York` in the `Schedule` trigger configuration
