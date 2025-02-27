@@ -1,5 +1,4 @@
 module_1/terraform_demo/keys/
-*.csv
 *.gz
 
 # gitignore template for Jupyter Notebooks
@@ -56,3 +55,6 @@ module_1/PostgreSQL_Data_Injestion.ipynb
 module_1/terraform_demo/.terraform.lock.hcl
 module_1/pipeline.py
 .vscode/settings.json
+module_1/yellow_tripdata_2021-01.csv
+module_1/yellow_tripdata_head_100.csv
+module_1/homework/output.csv
