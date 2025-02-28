@@ -3,11 +3,11 @@ version: 2
 sources:
   - name: staging
     database: "{{ env_var('DBT_DATABASE', 'weighty-pixel-448710-u7') }}"
-    schema: "{{ env_var('DBT_SCHEMA', 'zoomcamp') }}"
+    schema: "{{ env_var('DBT_SCHEMA', 'module_4_homework') }}"
       # loaded_at_field: record_loaded_at
     tables:
-      - name: green_tripdata
-      - name: yellow_tripdata
+      - name: green
+      - name: yellow
          # freshness:
            # error_after: {count: 6, period: hour}
 
