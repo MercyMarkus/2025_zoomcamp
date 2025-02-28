@@ -1,2 +1,2 @@
 select * 
-from {{ source('staging', 'green_tripdata' ) }}
+from {{ source('staging', 'green' ) }}
