@@ -6,8 +6,8 @@ sources:
     schema: "{{ env_var('DBT_SCHEMA', 'module_4_homework') }}"
       # loaded_at_field: record_loaded_at
     tables:
-      - name: green
-      - name: yellow
+      - name: green_trips
+      - name: yellow_trips
          # freshness:
            # error_after: {count: 6, period: hour}
 
