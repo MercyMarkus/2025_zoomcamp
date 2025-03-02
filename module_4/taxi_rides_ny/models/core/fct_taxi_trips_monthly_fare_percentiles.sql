@@ -19,15 +19,12 @@ percentile_calc as (
         month,
         percentile_cont(fare_amount, 0.97) over (
             partition by service_type, year, month
-            -- order by fare_amount
         ) as p97_fare,
         percentile_cont(fare_amount, 0.95) over (
             partition by service_type, year, month
-            -- order by fare_amount
         ) as p95_fare,
         percentile_cont(fare_amount, 0.90) over (
             partition by service_type, year, month
-            -- order by fare_amount
         ) as p90_fare
     from taxi_data
 )
