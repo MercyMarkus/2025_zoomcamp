@@ -30,7 +30,7 @@ models:
 
       - name: vendorid
         data_type: int64
-        description: ""
+        description: "Represents the unique vendor identifier"
 
       - name: service_type
         data_type: string
