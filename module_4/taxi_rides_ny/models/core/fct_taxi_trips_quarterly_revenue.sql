@@ -4,7 +4,7 @@ with trips_data as (
     select * from {{ ref('fact_trips') }}
 )
     select 
-    -- Revenue grouping 
+    -- Quarterly revenue grouping
     year_quarter,
     service_type,
     sum(total_amount) as revenue_quarterly_total_amount
